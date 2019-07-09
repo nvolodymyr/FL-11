@@ -44,7 +44,7 @@ alert('Wrong Password');
    let changePassword = confirm('Do you want to change your password?');
    if(changePassword){
     let validationPassword = prompt('Enter your Password', '');
-       if (validationPassword === MAIN_VISITORS_EMAIL_PASSWORD) {
+       if (validationPassword === MAIN_ADMIN_PASSWORD) {
         let firstNewPassword = prompt('Enter new password', '');
         if (firstNewPassword.length < MIN_COUNT_FOR_PASSWORD) {
             alert('It’s too short password. Sorry.');
