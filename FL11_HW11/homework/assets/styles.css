@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding-bottom: 40px;
+    color: aqua;
+}
+
+.dazzle {
+    text-align: center;
+    display: none;
+}
+
+.but {
+    color: lavender;
+    height: 30px;
+    font-size: 47px;
+    margin-bottom: 40px;
+}
+
+.enabled {
+    color: black;
+}
+
+::placeholder {
+    color: lightslategray;
+    opacity: 0.7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+
+.todo-cat {
+    margin-top: 100px;
+    width: 900px;
+    height: 550px;
+    border: 2px solid rgb(151, 181, 209);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: grey;
+}
+
+header {
+    text-align: center;
+}
+
+.todo-cat-list {
+    margin-top: 10px;
+}
+
+.todo-action {
+    display: flex;
+    margin: 5px auto;
+    align-items: center;
+    flex-direction: row;
+}
+
+.delete-color {
+    color: aqua;
+}
+
+.todo-action span {
+    padding-left: 5px;
+    color: aqua;
+}
+
+.todo-action .pen {
+    flex-grow: 1;
+}
+
+.add-newItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid aqua;
+}
+
+.hide {
+    display: none;
+}
+
+input {
+    flex-grow: 1;
+    margin-right: 10px;
+    height: 20px;
+    border: 1px solid rgb(189, 180, 180);
+    padding: 10px 4px;
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+
+input[type=text] {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.little-input {
+    border: 1px solid aqua;
+    font-size: 20px;
+    color: grey;
+    width: 100px;
+}
